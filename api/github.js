@@ -1,6 +1,6 @@
 // api/github.js
 export default async (req, res) => {
-    const token = process.env.GITHUB_TOKEN; // Используйте переменные среды для хранения токена
+const token = process.env.GITHUB_TOKEN;
 
     try {
         const response = await fetch(`https://api.github.com${req.url}`, {
