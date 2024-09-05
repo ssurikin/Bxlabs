@@ -1,4 +1,4 @@
-#### 123132 PHP Code - Получаем все товары Сделки
+#### dddddddddddddddd PHP Code - Получаем все товары Сделки
 
 $products = \Bitrix\Crm\ProductRowTable::getList([  
         'select' => ['ID'],  
