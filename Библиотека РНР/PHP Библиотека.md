@@ -1,5 +1,9 @@
 #### dddddddddddddddd PHP Code - Получаем все товары Сделки
 
+
+<form> <button>...</button> </form>
+
+
 $products = \Bitrix\Crm\ProductRowTable::getList([  
         'select' => ['ID'],  
         'filter' => ['OWNER_ID' => 31493, 'OWNER_TYPE' => 'D']  
