@@ -1,7 +1,7 @@
 #### dddddddddddddddd PHP Code - Получаем все товары Сделки
 
 
-<form> <button>...</button> </form>
+<form> <button>Кнопка</button> </form>
 
 
 $products = \Bitrix\Crm\ProductRowTable::getList([  
