@@ -1,4 +1,4 @@
-#### FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF PHP Code - Получаем все товары Сделки
+#### АБОБА PHP Code - Получаем все товары Сделки
 
 
 $products = \Bitrix\Crm\ProductRowTable::getList([  
