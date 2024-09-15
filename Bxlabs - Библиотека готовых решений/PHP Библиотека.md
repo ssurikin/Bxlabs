@@ -9,7 +9,54 @@
 ###### Заголовок 6 уровня
 
 
+```
+$products = \Bitrix\Crm\ProductRowTable::getList([  
+        'select' => ['ID'],  
+        'filter' => ['OWNER_ID' => 31493, 'OWNER_TYPE' => 'D']  
+    ])->fetchAll();  
+  
+$rootActivity = $this->GetRootActivity();  
+$rootActivity->SetVariable("productsIDs", $products);
 
+
+
+#### PHP Code - Получаем все Сделки по Телефонам и Почте
+
+use Bitrix\Crm\DealTable;  
+  
+$phoneString = "{{Phone}}";  
+$emailString = "{{E-mail}}";  
+  
+$phoneNumbers = explode(", ", $phoneString);  
+$emailAddresses = explode(", ", $emailString);  
+  
+$arFilter = array(  
+'LOGIC' => 'OR',  
+array('CONTACT.PHONE' => $phoneNumbers),  
+array('COMPANY.PHONE' => $phoneNumbers),  
+array('CONTACT.EMAIL' => $emailAddresses),  
+array('COMPANY.EMAIL' => $emailAddresses)  
+);  
+  
+$arSelect = array('ID');  
+  
+$arDeals = DealTable::getList(array(  
+'order' => array('ID' => 'DESC'),  
+'filter' => $arFilter,  
+'select' => $arSelect,  
+'cache' => array('ttl' => 3600)  
+))->fetchAll();  
+  
+$dealIDs = array();  
+foreach ($arDeals as $deal) {  
+    $dealIDs[] = $deal['ID'];  
+}  
+  
+$rootActivity = $this->GetRootActivity();  
+  
+$rootActivity->SetVariable("DealIDs", $dealIDs);
+
+```
 $products = \Bitrix\Crm\ProductRowTable::getList([  
         'select' => ['ID'],  
         'filter' => ['OWNER_ID' => 31493, 'OWNER_TYPE' => 'D']  
