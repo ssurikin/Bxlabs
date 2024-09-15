@@ -1,13 +1,12 @@
 #### АБОБА PHP Code - Получаем все товары Сделки
-
 # Заголовок 1 уровня
 ## Заголовок 2 уровня
 ### Заголовок 3 уровня
-
 #### Заголовок 4 уровня
 ##### Заголовок 5 уровня
 ###### Заголовок 6 уровня
 
+#### PHP Code - Получаем все товары Сделки
 
 ```
 $products = \Bitrix\Crm\ProductRowTable::getList([  
@@ -17,11 +16,11 @@ $products = \Bitrix\Crm\ProductRowTable::getList([
   
 $rootActivity = $this->GetRootActivity();  
 $rootActivity->SetVariable("productsIDs", $products);
-
-
+```
 
 #### PHP Code - Получаем все Сделки по Телефонам и Почте
 
+```
 use Bitrix\Crm\DealTable;  
   
 $phoneString = "{{Phone}}";  
@@ -55,17 +54,7 @@ foreach ($arDeals as $deal) {
 $rootActivity = $this->GetRootActivity();  
   
 $rootActivity->SetVariable("DealIDs", $dealIDs);
-
 ```
-$products = \Bitrix\Crm\ProductRowTable::getList([  
-        'select' => ['ID'],  
-        'filter' => ['OWNER_ID' => 31493, 'OWNER_TYPE' => 'D']  
-    ])->fetchAll();  
-  
-$rootActivity = $this->GetRootActivity();  
-$rootActivity->SetVariable("productsIDs", $products);
-
-
 
 #### PHP Code - Получаем все Сделки по Телефонам и Почте
 
