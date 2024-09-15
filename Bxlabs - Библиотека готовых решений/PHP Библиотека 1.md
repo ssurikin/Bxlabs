@@ -7,7 +7,6 @@
 ###### Заголовок 6 уровня
 
 #### PHP Code - Получаем все товары Сделки
-
 ```
 $products = \Bitrix\Crm\ProductRowTable::getList([  
         'select' => ['ID'],  
@@ -19,7 +18,6 @@ $rootActivity->SetVariable("productsIDs", $products);
 ```
 
 #### PHP Code - Получаем все Сделки по Телефонам и Почте
-
 ```
 use Bitrix\Crm\DealTable;  
   
