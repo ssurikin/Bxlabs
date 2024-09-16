@@ -15,7 +15,7 @@
 ---
 
 #### PHP Code - Получаем все товары Сделки
-```
+```PHP
 $products = \Bitrix\Crm\ProductRowTable::getList([  
         'select' => ['ID'],  
         'filter' => ['OWNER_ID' => 31493, 'OWNER_TYPE' => 'D']  
@@ -26,7 +26,7 @@ $rootActivity->SetVariable("productsIDs", $products);
 ```
 
 #### PHP Code - Получаем все Сделки по Телефонам и Почте
-```
+```PHP
 use Bitrix\Crm\DealTable;  
   
 $phoneString = "{{Phone}}";  
@@ -66,13 +66,13 @@ $rootActivity->SetVariable("DealIDs", $dealIDs);
 
 [The Cranberries - Zombie (Official Music Video)](https://www.youtube.com/watch?v=6Ejga4kJUts)
 
-Видео в проигрывателе: 
 
+Видео в проигрывателе: 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dJP7lu9gXjc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Картинки:
 
+Картинки:
 
 ![[Pasted image 20240916024920.png]]
 
