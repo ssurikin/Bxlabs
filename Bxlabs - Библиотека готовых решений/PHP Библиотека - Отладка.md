@@ -10,6 +10,12 @@
 Кнопка:
 <div class="container"> <a class="landing-block-node-button btn g-btn-type-solid g-btn-size-md g-btn-px-m g-button-color g-rounded-25 g-font-jost text-uppercase g-color--hover" id="openFancybox" href="https://boards.yandex.ru/whiteboard/?hash=8cef62fc5f7b47f433e0a8d3bbb99245" target="_popup" style="--button-color-contrast: hsla(0, 0%, 75%, 1);--button-color-hover: hsla(0, 0%, 10%, 1);--button-color-light: hsla(0, 0%, 10%, 1);--button-color: hsla(0, 0%, 0%, 1);--color: ;--color-hover: #ffffff;"> Тест </a> </div>
 
+Кнопка два (полный контейнер с айдишником)
+<div id="b9629" class="block-wrapper block-13-2-one-col-fix-button"><section class="landing-block text-center g-pt-30 g-pb-30 g-bg-image" style="--bg: ;--bg-url: url('https://cdn-ru.bitrix24.ru/b19912816/landing/d4e/d4ecd8737769978ce3d3ba64045c9566/3_1x.png');--bg-url-2x: url('https://cdn-ru.bitrix24.ru/b19912816/landing/d4e/d4ecd8737769978ce3d3ba64045c9566/3_1x.png');--bg-overlay: rgba(0, 0, 0, 0);--bg-size: cover;--bg-attachment: fixed;background-image: ;">
+	<div class="container">
+		<a class="landing-block-node-button btn g-btn-type-solid g-btn-size-md g-btn-px-m g-button-color g-rounded-25 g-font-jost text-uppercase g-color--hover" href="https://boards.yandex.ru/whiteboard/?hash=8cef62fc5f7b47f433e0a8d3bbb99245" target="_popup" style="--button-color-contrast: hsla(0, 0%, 75%, 1);--button-color-hover: hsla(0, 0%, 10%, 1);--button-color-light: hsla(0, 0%, 10%, 1);--button-color: hsla(0, 0%, 0%, 1);--color: ;--color-hover: #ffffff;">Тест</a>
+	</div>
+</section></div>
 
 Горизонтальная линия:
 
