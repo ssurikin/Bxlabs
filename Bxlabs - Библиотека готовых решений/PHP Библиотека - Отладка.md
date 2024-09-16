@@ -62,7 +62,7 @@ $rootActivity->SetVariable("DealIDs", $dealIDs);
 
 Ссылка на видео:
 
-[The Cranberries - Zombie (Official Music Video)] (https://www.youtube.com/watch?v=6Ejga4kJUts)
+[The Cranberries - Zombie (Official Music Video)](https://www.youtube.com/watch?v=6Ejga4kJUts)
 
 #### PHP Code - Получаем все Сделки по Телефонам и Почте
 
