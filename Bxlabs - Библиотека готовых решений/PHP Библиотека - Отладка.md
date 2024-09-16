@@ -6,12 +6,11 @@
 ##### Заголовок 5 уровня
 ###### Заголовок 6 уровня
 Простой текст. **Жирный текст.** *Текст курсивом.* ***Текст жирным курсивом.*** 
-Горизонтальная
+
+Горизонтальная линия:
 
 ---
 
-
-Линия
 #### PHP Code - Получаем все товары Сделки
 ```
 $products = \Bitrix\Crm\ProductRowTable::getList([  
@@ -63,6 +62,9 @@ $rootActivity->SetVariable("DealIDs", $dealIDs);
 Ссылка на видео:
 
 [The Cranberries - Zombie (Official Music Video)](https://www.youtube.com/watch?v=6Ejga4kJUts)
+
+![[logo — копия.png]]
+
 
 #### PHP Code - Получаем все Сделки по Телефонам и Почте
 
