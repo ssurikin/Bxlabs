@@ -7,6 +7,8 @@
 ###### Заголовок 6 уровня
 Простой текст. **Жирный текст.** *Текст курсивом.* ***Текст жирным курсивом.*** 
 
+<a class="landing-block-node-button btn g-btn-type-solid g-btn-size-md g-btn-px-m g-button-color g-rounded-25 g-font-jost text-uppercase g-color--hover" href="https://boards.yandex.ru/whiteboard/?hash=8cef62fc5f7b47f433e0a8d3bbb99245" target="_popup" style="--button-color-contrast: hsla(0, 0%, 75%, 1);--button-color-hover: hsla(0, 0%, 10%, 1);--button-color-light: hsla(0, 0%, 10%, 1);--button-color: hsla(0, 0%, 0%, 1);--color: ;--color-hover: #ffffff;">Тест</a>
+
 Горизонтальная линия:
 
 ---
