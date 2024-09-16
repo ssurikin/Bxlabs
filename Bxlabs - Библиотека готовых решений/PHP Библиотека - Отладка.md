@@ -63,7 +63,11 @@ $rootActivity->SetVariable("DealIDs", $dealIDs);
 
 [The Cranberries - Zombie (Official Music Video)](https://www.youtube.com/watch?v=6Ejga4kJUts)
 
-Картинка:
+Картинки:
+
+
+![[Pasted image 20240916024920.png]]
+
 
 ![[logo — копия.png]]
 
