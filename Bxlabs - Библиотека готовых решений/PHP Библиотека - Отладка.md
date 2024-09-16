@@ -11,6 +11,25 @@
 		<a class="landing-block-node-button btn g-btn-type-solid g-btn-size-md g-btn-px-m g-button-color g-rounded-25 g-font-jost text-uppercase g-color--hover" href="https://boards.yandex.ru/whiteboard/?hash=8cef62fc5f7b47f433e0a8d3bbb99245" target="_popup" style="--button-color-contrast: hsla(0, 0%, 75%, 1);--button-color-hover: hsla(0, 0%, 10%, 1);--button-color-light: hsla(0, 0%, 10%, 1);--button-color: hsla(0, 0%, 0%, 1);--color: ;--color-hover: #ffffff;">Тест</a>
 	</div>
 
+Кнопка, открывающая ссылку поверх текущей вкладки:
+
+<a id="popup-button" class="landing-block-node-button btn g-btn-type-solid g-btn-size-md g-btn-px-m g-button-color g-rounded-25 g-font-jost text-uppercase g-color--hover" href="https://boards.yandex.ru/whiteboard/?hash=8cef62fc5f7b47f433e0a8d3bbb99245" target="_blank" style="--button-color-contrast: hsla(0, 0%, 75%, 1);--button-color-hover: hsla(0, 0%, 10%, 1);--button-color-light: hsla(0, 0%, 10%, 1);--button-color: hsla(0, 0%, 0%, 1);--color: ;--color-hover: #ffffff;">Тест</a>
+<script>
+document.getElementById('popup-button').addEventListener('click', function(event) {
+    event.preventDefault(); // Предотвращаем стандартное действие по клику на ссылку
+
+    const url = this.href;
+    const width = 800;
+    const height = 600;
+    const left = (window.innerWidth - width) / 2;
+    const top = (window.innerHeight - height) / 2;
+
+    window.open(url, 'popupWindow', `width=${width},height=${height},top=${top},left=${left},scrollbars=yes,resizable=yes`);
+});
+</script>
+
+
+
 Горизонтальная линия:
 
 ---
