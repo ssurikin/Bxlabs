@@ -90,7 +90,7 @@ $rootActivity->SetVariable("DealIDs", $dealIDs);
 3. Заказ транспорта/спецтехники
 
 
-<iframe id="fancybox-frame1726514837926" name="fancybox-frame1726514837926" class="fancybox-iframe" frameborder="0" vspace="0" hspace="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" allowtransparency="true" src="https://boards.yandex.ru/whiteboard/?hash=8cef62fc5f7b47f433e0a8d3bbb99245" scrolling="auto"></iframe>
+<iframe width="560" height="315" id="fancybox-frame1726514837926" name="fancybox-frame1726514837926" class="fancybox-iframe" frameborder="0" vspace="0" hspace="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" allowtransparency="true" src="https://boards.yandex.ru/whiteboard/?hash=8cef62fc5f7b47f433e0a8d3bbb99245" scrolling="auto"></iframe>
 
 
 #### PHP Code - Получаем все Сделки по Телефонам и Почте
