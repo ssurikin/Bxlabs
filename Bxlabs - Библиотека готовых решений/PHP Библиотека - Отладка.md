@@ -81,18 +81,8 @@ $rootActivity->SetVariable("DealIDs", $dealIDs);
 
 Видео в проигрывателе: 
 
-
-
-
-<div class="video-container">
-    <iframe id="youtube-video" src="https://www.youtube.com/embed/dJP7lu9gXjc" frameborder="0" allowfullscreen></iframe>
-</div>
-
-<style>
-/* Контейнер для видео */ .video-container { display: flex; justify-content: center; /* Центрирует видео по горизонтали */ margin-bottom: 20px; /* Отступ снизу, чтобы отделить от другого контента */ } #youtube-video { width: 100%; /* Ширина iframe по ширине контейнера */ max-width: 800px; /* Максимальная ширина видео */ height: 450px; /* Высота видео */ } /* Контейнер для другого контента */ .other-content { /* Стили для другого контента */ }
-</style>
-
-
+<!--
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dJP7lu9gXjc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  -->
 
 Картинки:
 
