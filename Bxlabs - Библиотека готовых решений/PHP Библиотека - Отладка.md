@@ -65,6 +65,10 @@ $rootActivity->SetVariable("DealIDs", $dealIDs);
 
 Видео в проигрывателе: 
 
+
+<div class="landing-block-node-video embed-responsive-item g-video-preview w-100" data-src="//https://www.youtube.com/embed/dJP7lu9gXjc?autoplay=0&amp;controls=1&amp;loop=0&amp;mute=0&amp;rel=0&amp;start=0&amp;html5=1" data-source="https://youtube.com/shorts/_GRUR5UUgqw" data-preview="//img.youtube.com/vi/_GRUR5UUgqw/sddefault.jpg" style="background-image: url('//img.youtube.com/vi/_GRUR5UUgqw/sddefault.jpg');"></div>
+
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dJP7lu9gXjc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Картинки:
