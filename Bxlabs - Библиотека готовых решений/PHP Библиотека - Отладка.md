@@ -20,7 +20,7 @@
 
 
 Моя кнопка
-<div class="container"> <a class="landing-block-node-button btn g-btn-type-solid g-btn-size-md g-btn-px-m g-button-color g-rounded-25 g-font-jost text-uppercase g-color--hover" href="https://boards.yandex.ru/whiteboard/?hash=8cef62fc5f7b47f433e0a8d3bbb99245" target="_popup" style="--button-color-contrast: hsla(0, 0%, 75%, 1); --button-color-hover: hsla(0, 0%, 10%, 1); --button-color-light: hsla(0, 0%, 10%, 1); --button-color: hsla(0, 0%, 0%, 1); --color: ; --color-hover: #ffffff;"> Тест </a> </div>
+<div class="container"> <a class="landing-block-node-button btn g-btn-type-solid g-btn-size-md g-btn-px-m g-button-color g-rounded-25 g-font-jost text-uppercase g-color--hover" id="openFancybox" href="https://boards.yandex.ru/whiteboard/?hash=8cef62fc5f7b47f433e0a8d3bbb99245" target="_popup" style="--button-color-contrast: hsla(0, 0%, 75%, 1);--button-color-hover: hsla(0, 0%, 10%, 1);--button-color-light: hsla(0, 0%, 10%, 1);--button-color: hsla(0, 0%, 0%, 1);--color: ;--color-hover: #ffffff;"> Тест </a> </div>
 
 
 Горизонтальная линия:
@@ -81,7 +81,19 @@ $rootActivity->SetVariable("DealIDs", $dealIDs);
 
 Видео в проигрывателе: 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dJP7lu9gXjc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<!--
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dJP7lu9gXjc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  -->
+
+<div class="video-container">
+    <iframe id="youtube-video" src="https://www.youtube.com/embed/dJP7lu9gXjc" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<style>
+/* Контейнер для видео */ .video-container { display: flex; justify-content: center; /* Центрирует видео по горизонтали */ margin-bottom: 20px; /* Отступ снизу, чтобы отделить от другого контента */ } #youtube-video { width: 100%; /* Ширина iframe по ширине контейнера */ max-width: 800px; /* Максимальная ширина видео */ height: 450px; /* Высота видео */ } /* Контейнер для другого контента */ .other-content { /* Стили для другого контента */ }
+</style>
+
+
 
 Картинки:
 
