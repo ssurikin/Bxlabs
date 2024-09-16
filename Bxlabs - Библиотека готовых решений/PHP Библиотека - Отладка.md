@@ -65,8 +65,7 @@ $rootActivity->SetVariable("DealIDs", $dealIDs);
 
 Видео в проигрывателе: 
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=6Ejga4kJUts" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dJP7lu9gXjc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Картинки:
 
