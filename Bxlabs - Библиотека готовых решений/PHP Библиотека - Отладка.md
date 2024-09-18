@@ -67,7 +67,7 @@ $rootActivity->SetVariable("DealIDs", $dealIDs);
 [The Cranberries - Zombie (Official Music Video)](https://www.youtube.com/watch?v=6Ejga4kJUts)
 
 
-Видео в проигрывателе: 
+Видео в проигрывателе или любой сайт: 
 
 <iframe width="560" height="315" src="https://boards.yandex.ru/whiteboard/?hash=8cef62fc5f7b47f433e0a8d3bbb99245" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
