@@ -24,6 +24,7 @@ $products = \Bitrix\Crm\ProductRowTable::getList([
 $rootActivity = $this->GetRootActivity();  
 $rootActivity->SetVariable("productsIDs", $products);
 
+
 ```
 
 #### PHP Code - Получаем все Сделки по Телефонам и Почте
@@ -61,6 +62,7 @@ foreach ($arDeals as $deal) {
 $rootActivity = $this->GetRootActivity();  
   
 $rootActivity->SetVariable("DealIDs", $dealIDs);
+
 
 ```
 
