@@ -77,6 +77,11 @@ $rootActivity->SetVariable("DealIDs", $dealIDs);
 
 Видео в проигрывателе или любой сайт: 
 
+<div id="iframe-container" style="width: 100%; height: 500px; overflow: hidden;">
+    <iframe src="https://boards.yandex.ru/whiteboard/?hash=8cef62fc5f7b47f433e0a8d3bbb99245" style="width: 100%; height: 100%; border: none;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+
 <iframe width="560" height="415" src="https://boards.yandex.ru/whiteboard/?hash=8cef62fc5f7b47f433e0a8d3bbb99245" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
