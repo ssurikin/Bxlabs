@@ -76,7 +76,7 @@ $rootActivity->SetVariable("DealIDs", $dealIDs);
 
 
 Видео в проигрывателе или любой сайт: 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IjhOaynt0ik?si=l7wMyyENgbAAM-u0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe 			aspect-ratio="16 / 9" width="560" height="315" src="https://www.youtube.com/embed/IjhOaynt0ik?si=l7wMyyENgbAAM-u0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <div id="iframe-container" style="width: 90%; height: 500px; overflow: hidden; margin: 0 auto;"> <iframe src="https://boards.yandex.ru/whiteboard/?hash=8cef62fc5f7b47f433e0a8d3bbb99245" style="width: 100%; height: 100%; border: none;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> </div>
 
