@@ -13,10 +13,6 @@
 
 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16" class="dc-toggle-arrow dc-toggle-arrow_type_horizontal dc-toggle-arrow_open dc-toggle-arrow_thin dc-toc-item__icon"><path fill="currentColor" fill-rule="evenodd" d="M5.47 13.03a.75.75 0 0 1 0-1.06L9.44 8 5.47 4.03a.75.75 0 0 1 1.06-1.06l4.5 4.5a.75.75 0 0 1 0 1.06l-4.5 4.5a.75.75 0 0 1-1.06 0Z" clip-rule="evenodd"></path></svg>
 
-
-
-
-
 Горизонтальная линия:
 
 ---
@@ -80,7 +76,7 @@ $rootActivity->SetVariable("DealIDs", $dealIDs);
 
 Видео в проигрывателе или любой сайт: 
 
-<iframe width="560" height="315" src="https://fokus.am/p/7zQRwHJHTAMA?controls=0" title="presentation" frameborder="0"></iframe>
+<div id="iframe-container2" style="width: 100%; height: 100%;"><iframe src="https://fokus.am/p/7zQRwHJHTAMA?controls=0" title="presentation" frameborder="0"></iframe></div>
 
 <iframe 			aspect-ratio="16 / 9" width="560" height="315" src="https://www.youtube.com/embed/IjhOaynt0ik?si=l7wMyyENgbAAM-u0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
